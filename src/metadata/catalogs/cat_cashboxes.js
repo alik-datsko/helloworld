@@ -6,7 +6,7 @@
  * Created by Evgeniy Malyarov on 10.04.2018.
  */
 
-export default function ($p) {
+function cat_cashboxes($p) {
 
   // корректируем метаданные - описываем структуру формы элемента справочника
   const meta = $p.cat.cashboxes.metadata();
